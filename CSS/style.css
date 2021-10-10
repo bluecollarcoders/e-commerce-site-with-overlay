@@ -3,7 +3,7 @@
 
 
 :root {
-    --primary-color:rgba(236, 64, 122, 0.39);
+    --primary-color:rgba(236, 64, 122, 0.89);
     --secondary-color:#fff;
     --btn-color: rgb(192, 31, 57);
     --overlay-color:rgb(194, 24, 91);
@@ -72,6 +72,7 @@ body {
     font-size: 22px;
     text-decoration: none;
     transition: opacity 1s ease-in-out;
+    margin-top: 29px;
 }
 
 
