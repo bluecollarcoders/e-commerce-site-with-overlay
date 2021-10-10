@@ -104,6 +104,11 @@
     transition-duration: var(--menu-speed);
 }
 
+.menu-wrap .toggler:checked ~ .menu > div > {
+    opacity: 1;
+    transition: opacity 0.4s ease 0.4s;
+}
+
 .menu-wrap .menu {
     position: fixed;
     top: 0;
@@ -123,6 +128,7 @@
     height: 200vw;
     display: flex;
     align-items: center;
+    flex: none;
     justify-content: center;
     transform: scale(0);
     transition: all 0.4s ease;
@@ -132,7 +138,7 @@
     text-align: center;
     max-width: 90vw;
     max-height: 100vh;
-    /* opacity: 0; */
+    opacity: 1;
     transition: opacity 0.4s ease;
 }
 
