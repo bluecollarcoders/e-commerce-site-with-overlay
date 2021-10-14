@@ -247,6 +247,28 @@ body {
 
 
 
+/* Oufit ad  */
+
+.content-outfit > h1 {
+    text-align:  center;
+    margin-top: 6.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 2.0rem;
+}
+
+.outfit-ad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.outfit-ad .outfits {
+    padding: 10px;
+}
+
+
 
 
 
