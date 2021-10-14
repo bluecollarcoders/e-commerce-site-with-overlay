@@ -252,6 +252,7 @@ body {
 .content-outfit > h1 {
     text-align:  center;
     margin-top: 6.0rem;
+    margin-bottom: 2.0rem;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-size: 2.0rem;
@@ -262,11 +263,35 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     
+    
 }
 
-.outfit-ad .outfits {
+ .outfits {
+    padding: 10px;
+    height: 400px;
+    width: 320px;
+    opacity: 0.9;
+}
+
+.btn-outfit {
+  margin: 20px;
+  text-transform: uppercase;
+  position: relative;left: 30px;
+  font-size: 18px;
+  
+}
+
+.btn-outfit > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.btn-outfit > i {
     padding: 10px;
 }
+
 
 
 
