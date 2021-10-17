@@ -291,10 +291,54 @@ body {
 }
 
 
+/* slider box */
 
+.slider h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
 
+.slider-contanier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.slider-contanier > i {
+    position: relative;top: 150px;
+    padding: 10px;
+}
 
+.slider-box {
+    border-radius: 4px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.slider-box > a > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-box > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.slider-box > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
 
 
 
