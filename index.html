@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/menu.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -176,20 +173,11 @@
       <h1>Hottest Styles</h1>
 
       <!-- slider contanier -->
-
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"></div>
-          
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        
-      </div>
-  
+      
 
       <div class="slider-contanier">
-       
+        <i class="fas fa-chevron-left fa-3x" onclick="plusDivs(-1)"></i>
+
         <!-- slider boxes -->
 
         <!-- slider-box 1 -->
@@ -229,13 +217,12 @@
 
 
 
-       
+        <i class="fas fa-chevron-right fa-3x" onclick="plusDivs(+1)"></i>
       </div>
 
     
     </section>
 
     <script src="/JavaScript/app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
